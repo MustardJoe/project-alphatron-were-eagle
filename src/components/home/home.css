@@ -1,0 +1,14 @@
+.home {
+  z-index: 1000;
+  color: #85EF47;
+  color: #F9FD50;
+  background-color: #00BD56;
+  border-top-right-radius: 2em;
+  max-width: 80vw;
+  padding: 1em;
+  opacity: 1;
+  img {
+    height: 58vh;
+    float: right;
+  }
+}
