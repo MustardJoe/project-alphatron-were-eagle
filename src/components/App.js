@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './header/Header';
+import MainBody from './mainbody/MainBody';
+import styles from '../index.css';
 
 export default function App() {
   return (
-    <app>
-      <h1>Hello World</h1>
-      <Header />
+    <app className={styles.app}>
+      <MainBody />
     </app>
   );
 }

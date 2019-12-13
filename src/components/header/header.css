@@ -4,8 +4,8 @@
   font-family: 'Nunito', sans-serif;
   background-color: #F9FD50;
   color: #00BD56;
-  padding: 12px;
-  max-width: 70vw;
+  width: 80vw;
+  padding: 1em;
   border-bottom-left-radius: 2em;
   border-top-right-radius: 2em;
   a {
