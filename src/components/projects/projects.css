@@ -1,0 +1,27 @@
+.projectsComp {
+  color: #F9FD50;
+  background-color: #00BD56;
+  border-top-right-radius: 2em;
+  max-width: 80vw;
+  padding-left: 12px;
+  height: 70vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  div {
+    margin-bottom: 20px;
+  }
+  img {
+    width: 240px;
+    border-radius: 8px;
+    float: left;
+  }
+}
+
+.spacerDiv {
+  height: 30px;
+}
+
+.projText {
+  margin-left: 13em;
+  padding: 12px;
+}
