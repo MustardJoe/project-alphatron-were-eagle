@@ -21,7 +21,6 @@ function MainBody() {
           <Route path="/projects" component={Projects} />
         </Switch>
       </Router>
-      Here is stuff
     </mainbody>
   );
 }
