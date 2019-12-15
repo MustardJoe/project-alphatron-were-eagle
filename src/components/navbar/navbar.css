@@ -1,0 +1,10 @@
+.navBar {
+  background-color: #00BD56;
+  padding: 1em;
+  font-size: 1.6em;
+}
+
+.link {
+  margin-right: 3vw;
+  text-decoration: none;
+}

@@ -2,12 +2,13 @@ import React from 'react';
 import {
   Link
 } from 'react-router-dom';
+import styles from './navbar.css';
 
 function NavBar() {
   return (
-    <nav>
-      <Link to="/">Home</Link>
-      <Link to="/projects">Projects</Link>
+    <nav className={styles.navBar}>
+      <Link to="/" className={styles.link}>Home</Link>
+      <Link to="/projects" className={styles.link}>Projects</Link>
     </nav>
   );
 }
