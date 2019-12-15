@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2:800&display=swap');
 
+.wayback {
+  background-color: #00BD56;
+  border-top-right-radius: 2em;
+  display: block;
+}
+
 .header {
   font-family: 'Nunito', sans-serif;
   background-color: #F9FD50;
