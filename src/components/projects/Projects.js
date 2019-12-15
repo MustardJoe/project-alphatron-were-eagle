@@ -53,16 +53,17 @@ function Projects() {
         <p className={styles.projText}>
           <a href="https://confident-shirley-560be5.netlify.com/index.html" target="_blank"
             rel="noopener noreferrer">
-            Jonny's Simpsons Quotes!</a> A project I created that pulls data from a Simpsons API
+            Jonny&apos;s Simpsons Quotes!</a> A project I created that pulls data from a Simpsons API
             and displays that data as with a Simpsons-themed presentation style.
         </p>
       </div>
+      <div className={styles.spacerDiv}></div>
       <div>
         Please consider viewing my <a href="https://github.com/MustardJoe" target="_blank"
           rel="noopener noreferrer">
         GitHub</a> to see more!
       </div>
-      <div className={styles.spacerDiv}></div><div className={styles.spacerDiv}></div>
+      <div className={styles.spacerDiv}></div>
  
     </section>
 
