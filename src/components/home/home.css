@@ -5,7 +5,8 @@
   background-color: #00BD56;
   border-top-right-radius: 2em;
   max-width: 80vw;
-  padding: 1em;
+  min-height: 70vh;
+  padding-left: 2em;
   opacity: 1;
   img {
     height: 58vh;
