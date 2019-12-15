@@ -5,10 +5,10 @@ function Projects() {
   return (
     <section className={styles.projectsComp}>
       <div className={styles.spacerDiv}></div>
-      <div>
+      <div className={styles.projBlock}>
         <a href="https://boring-kepler-b775fe.netlify.com/" target="_blank" 
           rel="noopener noreferrer">
-          <img src="../../assets/astroview.png"></img>
+          <img src="../../assets/astroview.png" className={styles.projImg}></img>
         </a>
         <p className={styles.projText}>
           <a href="https://boring-kepler-b775fe.netlify.com/" target="_blank" 
@@ -18,10 +18,10 @@ function Projects() {
         </p>
       </div>
       <div className={styles.spacerDiv}></div>
-      <div>
+      <div className={styles.projBlock}>
         <a href="https://happy-lovelace-66fb73.netlify.com/auth.html" target="_blank" 
           rel="noopener noreferrer">
-          <img src="../../assets/joliliah.png"></img>
+          <img src="../../assets/joliliah.png" className={styles.projImg}></img>
         </a>
         <p className={styles.projText}>
           <a href="https://happy-lovelace-66fb73.netlify.com/auth.html" target="_blank"
@@ -32,9 +32,9 @@ function Projects() {
         </p>
       </div>
       <div className={styles.spacerDiv}></div>
-      <div>
+      <div className={styles.projBlock}>
         <a href="https://moddo.netlify.com/" target="_blank" rel="noopener noreferrer">
-          <img src="../../assets/moddo.png"></img>
+          <img src="../../assets/moddo.png" className={styles.projImg}></img>
         </a>
         <p className={styles.projText}>
           <a href="https://moddo.netlify.com/" target="_blank"
@@ -45,10 +45,10 @@ function Projects() {
         </p>
       </div>
       <div className={styles.spacerDiv}></div>
-      <div>
+      <div className={styles.projBlock}>
         <a href="https://confident-shirley-560be5.netlify.com/index.html" target="_blank"
           rel="noopener noreferrer">
-          <img src="../../assets/simpsons.png"></img>
+          <img src="../../assets/simpsons.png" className={styles.projImg}></img>
         </a>
         <p className={styles.projText}>
           <a href="https://confident-shirley-560be5.netlify.com/index.html" target="_blank"

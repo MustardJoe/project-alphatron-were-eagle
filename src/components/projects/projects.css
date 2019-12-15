@@ -3,17 +3,18 @@
   background-color: #00BD56;
   border-top-right-radius: 2em;
   max-width: 80vw;
-  padding-left: 12px;
   height: 70vh;
+  padding: 1em;
   overflow: scroll;
   overflow-x: hidden;
   div {
     margin-bottom: 20px;
   }
   img {
-    width: 240px;
+    width: 280px;
     border-radius: 8px;
-    float: left;
+    margin: 1em;
+    display: inline-block;
   }
 }
 
@@ -21,7 +22,26 @@
   height: 30px;
 }
 
-.projText {
-  margin-left: 13em;
-  padding: 12px;
+.projBlock {
+  display: flex-wrap;
+  border: 1px solid #ccc;
+  justify-content: center;
+  
 }
+
+.projImg {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle
+}
+
+.projText {
+  padding: 12px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  max-width: 500px;
+  vertical-align: middle
+}
+
+
+
