@@ -4,7 +4,8 @@
   color: #F9FD50;
   background-color: #00BD56;
   border-top-right-radius: 2em;
-  max-width: 80vw;
+  width: 80vw;
+  max-width: 875px;
   min-height: 70vh;
   padding-left: 2em;
   opacity: 1;
