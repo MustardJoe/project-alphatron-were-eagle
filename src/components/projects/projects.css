@@ -24,7 +24,6 @@
 
 .projBlock {
   display: flex-wrap;
-  border: 1px solid #ccc;
   justify-content: center;
   
 }
@@ -37,7 +36,6 @@
 
 .projText {
   padding: 12px;
-  border: 1px solid #ccc;
   display: inline-block;
   max-width: 500px;
   vertical-align: middle
