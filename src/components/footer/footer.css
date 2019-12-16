@@ -1,0 +1,19 @@
+.footer {
+  background-color: #207DFF;
+  color: #00BD56;
+  color: #F9FD50;
+  color: #85EF47;
+  font-size: 1.1em;
+  position: relative;
+  bottom: 0;
+  height: 8vh;
+  width: 80vw;
+  max-width: 875px;
+  padding-top: 30px;
+}
+
+.footer div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2px;
+}
