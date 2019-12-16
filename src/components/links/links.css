@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:800&display=swap');
+
+.twitterTag {
+  font-family: 'Exo 2', sans-serif;
+  text-align: center;
+  font-size: 1.4em;
+  color: #207DFF;
+}
+
+.spacerDiv {
+  height: 2vh;
+}
