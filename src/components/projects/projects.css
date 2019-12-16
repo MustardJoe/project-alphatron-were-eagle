@@ -1,13 +1,11 @@
 .projectsComp {
   color: #F9FD50;
   background-color: #00BD56;
-  border-top-right-radius: 2em;
   width: 80vw;
   max-width: 875px;
   padding-right: 2em;
-  height: 65vh;
-  overflow: scroll;
-  overflow-x: hidden;
+  min-height: 70vh;
+
   text-align: center;
   div {
     margin-bottom: 20px;
