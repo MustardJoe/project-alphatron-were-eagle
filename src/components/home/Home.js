@@ -13,34 +13,36 @@ import jonvatar from '../../../assets/jon-maya-avatar-small.png';
 
 function Home() {
   return (
-    <section className={styles.home}>
-      <div className="jonvatar">
-        <img src={jonvatar}></img>
-      </div>
-      <div></div>
-      <div>
-        Welcome to my internet home (away from home). I&apos;m a 
-        fullstack software devoloper (he/him pronouns) living
-        in Portland, Or.
-      </div>
+    <>
+      <section className={styles.home}>
+        <div className="jonvatar">
+          <img src={jonvatar}></img>
+        </div>
+        <div></div>
+        <div className={styles.textPara}>
+          Welcome to my internet home (away from home). I&apos;m a 
+          fullstack software devoloper (he/him pronouns) living
+          in Portland, Or.
+        </div>
 
-      <div>
-        I&apos;m an empathetic, inteligent and diligent individual
-        with a quiet but quirky sense of humor, and a passion for continuous learning.
-        The most important thing to me in a job is being part of a great fitting team 
-        that works well together and supports each other.
-      </div>
+        <div className={styles.textPara}>
+          I&apos;m an empathetic, inteligent and diligent individual
+          with a quiet but quirky sense of humor, and a passion for continuous learning.
+          The most important thing to me in a job is being part of a great fitting team 
+          that works well together and supports each other.
+        </div>
 
-      <div>
-        I grew up in Alaska, I play several instruments and my 3rd favorite
-        movie is the original 1954 Godzilla.
-      </div>
+        <div className={styles.textPara}>
+          I grew up in Alaska, I play several instruments and my 3rd favorite
+          movie is the original 1954 Godzilla.
+        </div>
 
-      <div>
-        Please use this site as a helpful resource to learn about me!
-      </div>
-    </section>
-
+        <div className={styles.textPara}>
+          Please use this site as a helpful resource to learn about me!
+        </div>
+        <Footer />
+      </section>
+    </>
   );
 }
 

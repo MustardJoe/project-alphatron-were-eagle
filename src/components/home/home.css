@@ -6,10 +6,14 @@
   width: 80vw;
   max-width: 875px;
   min-height: 70vh;
-  padding-left: 2em;
+  padding-right: 2em;
   opacity: 1;
   img {
     height: 58vh;
     float: right;
+  }
+  .textPara {
+    padding: 1em;
+    padding-left: 2em;
   }
 }
