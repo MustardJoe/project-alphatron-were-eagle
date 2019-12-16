@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../footer/Footer';
 import styles from './home.css';
 import jonvatar from '../../../assets/jon-maya-avatar-small.png';
 
@@ -18,13 +19,13 @@ function Home() {
       </div>
       <div></div>
       <div>
-        Welcome to my internet home (away from home). I'm a 
+        Welcome to my internet home (away from home). I&apos;m a 
         fullstack software devoloper (he/him pronouns) living
         in Portland, Or.
       </div>
 
       <div>
-        I'm an empathetic, inteligent and diligent individual
+        I&apos;m an empathetic, inteligent and diligent individual
         with a quiet but quirky sense of humor, and a passion for continuous learning.
         The most important thing to me in a job is being part of a great fitting team 
         that works well together and supports each other.
