@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './projects.css';
+import Footer from '../footer/Footer';
 
 function Projects() {
   return (
@@ -63,10 +64,9 @@ function Projects() {
           rel="noopener noreferrer">
         GitHub</a> to see more!
       </div>
-      <div className={styles.spacerDiv}></div>
  
+      <Footer />
     </section>
-
   );
 }
 
