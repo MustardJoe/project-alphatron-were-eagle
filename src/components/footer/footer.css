@@ -5,11 +5,13 @@
   color: #85EF47;
   font-size: 1.1em;
   position: relative;
+  margin-bottom: 0;
   bottom: 0;
   height: 8vh;
   width: 80vw;
   max-width: 875px;
-  padding-top: 30px;
+  padding: 1em;
+  display: inline-block;
 }
 
 .footer div {
