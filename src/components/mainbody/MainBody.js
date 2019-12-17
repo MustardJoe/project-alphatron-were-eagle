@@ -8,6 +8,7 @@ import Header from '../header/Header';
 import NavBar from '../navbar/NavBar';
 import Home from '../home/Home';
 import Projects from '../projects/Projects';
+import Links from '../links/Links';
 import styles from './mainbody.css';
 
 function MainBody() {
@@ -19,6 +20,7 @@ function MainBody() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/projects" component={Projects} />
+          <Links path="/links" component={Links} />
         </Switch>
       </Router>
     </mainbody>
