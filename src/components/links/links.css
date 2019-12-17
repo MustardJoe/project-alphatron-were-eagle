@@ -5,10 +5,12 @@
   text-align: center;
   font-size: 1.4em;
   color: #207DFF;
+  margin-left: 1em;
 }
 
 .socMedia {
   background-color: #00BD56;
+  justify-content: center;
   width: 80vw;
   max-width: 875px;
   min-height: 70vh;
@@ -27,6 +29,7 @@
 .imgLinksDiv {
   margin-top: 35px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -36,6 +39,9 @@
 
 .cartoonRef {
   justify-content: center;
+  margin-left: 2em;
+  padding-top: 2em;
+  padding-bottom: 0.4em;
 }
 .mayaRef {
   display: inline;
