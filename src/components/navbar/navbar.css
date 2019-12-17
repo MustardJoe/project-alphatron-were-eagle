@@ -1,10 +1,20 @@
 .navBar {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #00BD56;
-  padding: 0.8em;
   font-size: 1.6em;
+  padding-right: 1.26em;
+  width: 875px;
+  max-width: 80vw;
 }
 
 .link {
   margin-right: 3vw;
   text-decoration: none;
+}
+
+.linkContainer {
+  margin: 1em;
+  display: flex;
+  flex-wrap: wrap;
 }

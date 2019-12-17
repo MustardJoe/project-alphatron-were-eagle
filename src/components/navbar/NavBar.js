@@ -7,8 +7,12 @@ import styles from './navbar.css';
 function NavBar() {
   return (
     <nav className={styles.navBar}>
-      <Link to="/" className={styles.link}>Home</Link>
-      <Link to="/projects" className={styles.link}>Projects</Link>
+      <div className={styles.linkContainer}>
+
+        <Link to="/" className={styles.link}>Home</Link>
+        <Link to="/projects" className={styles.link}>Projects</Link>
+        <Link to="/links" className={styles.link}>Links/Refs</Link>
+      </div>
     </nav>
   );
 }
