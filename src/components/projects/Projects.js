@@ -5,7 +5,6 @@ import Footer from '../footer/Footer';
 function Projects() {
   return (
     <section className={styles.projectsComp}>
-      <div className={styles.spacerDiv}></div>
       <div className={styles.projBlock}>
         <a href="https://boring-kepler-b775fe.netlify.com/" target="_blank" 
           rel="noopener noreferrer">
@@ -59,7 +58,7 @@ function Projects() {
         </p>
       </div>
       <div className={styles.spacerDiv}></div>
-      <div>
+      <div className={styles.ghLink}>
         Please consider viewing my <a href="https://github.com/MustardJoe" target="_blank"
           rel="noopener noreferrer">
         GitHub</a> to see more!
