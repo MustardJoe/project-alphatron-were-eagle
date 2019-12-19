@@ -4,8 +4,8 @@ import styles from '../index.css';
 
 export default function App() {
   return (
-    <app className={styles.app}>
+    <div className={styles.app}>
       <MainBody />
-    </app>
+    </div>
   );
 }

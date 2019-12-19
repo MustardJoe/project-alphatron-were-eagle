@@ -13,7 +13,7 @@ import styles from './mainbody.css';
 
 function MainBody() {
   return (
-    <mainbody className={styles.mainbody}>
+    <div className={styles.mainbody}>
       <Header />
       <Router>
         <NavBar />
@@ -23,7 +23,7 @@ function MainBody() {
           <Links path="/links" component={Links} />
         </Switch>
       </Router>
-    </mainbody>
+    </div>
   );
 }
 
