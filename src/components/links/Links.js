@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../footer/Footer';
 import styles from './links.css';
+import twitterIcon from '../../assets/twittergoof.png';
 
 function Links() {
   return (
@@ -12,7 +13,7 @@ function Links() {
         </div>
         <div className={styles.imgLinksDiv}>
           <a href="https://github.com/MustardJoe" className={styles.imgLinks} target="blank">
-            <img src="./src/assets/github-grn2.png" alt="GitHub icon"></img>
+            <img src="../../assets/github-grn2.png" alt="GitHub icon"></img>
           </a>
           <a href="https://www.linkedin.com/in/jonathan-forney-52431a79/" className={styles.imgLinks} 
             target="_blank" rel="noopener noreferrer">
@@ -20,7 +21,7 @@ function Links() {
           </a>
           <a href="https://twitter.com/GodzillaJonny" className={styles.imgLinks} target="_blank"
             rel="noopener noreferrer">
-            <img src="./assets/twittergood.png" alt="Twitter icon"></img>
+            <img src={twitterIcon} alt="Twitter icon"></img>
           </a>
         </div>
         <div className={styles.spacerDiv}></div>
