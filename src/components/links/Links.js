@@ -12,20 +12,20 @@ function Links() {
         </div>
         <div className={styles.imgLinksDiv}>
           <a href="https://github.com/MustardJoe" className={styles.imgLinks} target="blank">
-            <img src="./assets/github-grn2.png" alt="GitHub icon"></img>
+            <img src="./src/assets/github-grn2.png" alt="GitHub icon"></img>
           </a>
           <a href="https://www.linkedin.com/in/jonathan-forney-52431a79/" className={styles.imgLinks} 
             target="_blank" rel="noopener noreferrer">
-            <img src="./assets/linkedin2.png" alt="linked in icon"></img>
+            <img src="./src/assets/linkedin2.png" alt="Linked In icon"></img>
           </a>
           <a href="https://twitter.com/GodzillaJonny" className={styles.imgLinks} target="_blank"
             rel="noopener noreferrer">
-            <img src="./assets/twittergood.png" alt="linked in icon"></img>
+            <img src="./src/assets/twittergood.png" alt="Twitter icon"></img>
           </a>
         </div>
         <div className={styles.spacerDiv}></div>
         <div className={styles.cartoonRef}>
-          <img src="./assets/jonvatar.png"></img>
+          <img src="./src/assets/jonvatar.png"></img>
           <p className={styles.mayaRef}>
         Cartoon Jon avatar by <a href="https://www.mayacastillo.com/" target="_blank"
               rel="noopener noreferrer">
