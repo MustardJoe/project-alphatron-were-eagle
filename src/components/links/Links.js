@@ -20,7 +20,7 @@ function Links() {
           </a>
           <a href="https://twitter.com/GodzillaJonny" className={styles.imgLinks} target="_blank"
             rel="noopener noreferrer">
-            <img src="./src/assets/twittergood.png" alt="Twitter icon"></img>
+            <img src="./assets/twittergood.png" alt="Twitter icon"></img>
           </a>
         </div>
         <div className={styles.spacerDiv}></div>
