@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../footer/Footer';
 import styles from './links.css';
-import twitterIcon from '../../assets/twittergoof.png';
+import twitterIcon from '../../assets/twittergood.png';
 
 function Links() {
   return (
