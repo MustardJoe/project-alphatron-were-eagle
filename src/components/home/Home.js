@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../footer/Footer';
 import styles from './home.css';
-import jonvatar from '../../../assets/jon-maya-avatar-small.png';
+import jonvatar from '../../assets/jon-maya-avatar-small.png';
 
 //old code left in for css reference - delete later
 /* <section class="home-comp">
