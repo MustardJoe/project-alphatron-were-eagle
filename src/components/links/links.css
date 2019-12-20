@@ -13,7 +13,7 @@
   justify-content: center;
   width: 80vw;
   max-width: 875px;
-  min-height: 70vh;
+  /*min-height: 70vh;*/
   padding-right: 2em;
   img {
     width: 80px;
