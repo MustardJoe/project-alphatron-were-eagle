@@ -3,14 +3,6 @@ import Footer from '../footer/Footer';
 import styles from './home.css';
 import jonvatar from '../../assets/jon-maya-avatar-small.png';
 
-//old code left in for css reference - delete later
-/* <section class="home-comp">
-<div className="jonvatar">
-  <img src="./assets/jon-maya-avatar-small.png"></img>
-</div>
-<div class="empty-div"></div> */
-//delete this block later after css adjustments are made
-
 function Home() {
   return (
     <>
