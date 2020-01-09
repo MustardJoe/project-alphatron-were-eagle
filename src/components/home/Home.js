@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../footer/Footer';
 import styles from './home.css';
-import jonvatar from '../../assets/jon-maya-avatar-small.png';
+import jonvatar from '../../assets/jonpic2small.png';
 
 function Home() {
   return (
