@@ -1,10 +1,10 @@
 import React from 'react';
 import Footer from '../footer/Footer';
 import styles from './links.css';
-import githubIcon from '../../assets/github-grn2.png';
-import linkedinIcon from '../../assets/linkedin2.png';
-import twitterIcon from '../../assets/twittergood.png';
-import miniAvatar from '../../assets/jonvatar.png';
+import githubIcon from '../../assets/githubwere3.png';
+import linkedinIcon from '../../assets/linkedinwere3.png';
+import twitterIcon from '../../assets/twitterwere3.png';
+import miniAvatar from '../../assets/jonpic2small.png';
 
 function Links() {
   return (
