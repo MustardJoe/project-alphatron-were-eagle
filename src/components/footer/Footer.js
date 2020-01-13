@@ -1,11 +1,14 @@
 import React from 'react';
 import styles from './footer.css';
+import footerMsgs from '../../services/footerMsgs';
+
+let ourMsg = footerMsgs();
 
 function Footer() {
   return (
     <section className={styles.footer}>
       <div>
-              You&apos;ve made it to the bottom of the page! Congratulations!
+        {ourMsg}
       </div>
       <div>
               © Jon Forney 2020
