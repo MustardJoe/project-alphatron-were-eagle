@@ -1,5 +1,5 @@
 function footerMsg() {
-  const randomMsgPick = Math.floor(Math.random() * 2);
+  const randomMsgPick = Math.floor(Math.random() * (headerMsgs.length - 1));
   
   const headerMsgs = [
     'The unexamined code is not worth writing.',
