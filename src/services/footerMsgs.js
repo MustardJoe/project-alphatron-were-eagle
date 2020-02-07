@@ -1,14 +1,13 @@
 function footerMsg() {
-  const randomMsgPick = Math.floor(Math.random() * (headerMsgs.length - 1));
-  
-  const headerMsgs = [
+  const footerMsgs = [
     'The unexamined code is not worth writing.',
     'You\'ve made it to the bottom of the page! Congratulations!',
     'It\'s been a long day & you deserve a break!',
     'You\'ve reached level 999',
   ];
-
-  const selectedMsg = headerMsgs[randomMsgPick];
+  
+  const randomMsgPick = Math.floor(Math.random() * (footerMsgs.length - 1));
+  const selectedMsg = footerMsgs[randomMsgPick];
   return selectedMsg;
 }
 
