@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './projects.css';
 import Footer from '../footer/Footer';
-import astroViewImg from '../../assets/astroview.png';
-import joliliahImg from '../../assets/joliliah.png';
-import moddoImg from '../../assets/moddo.png';
-import simpsonsImg from '../../assets/simpsons.png';
+import astroViewImg from '../../assets/astroview1.png';
+import joliliahImg from '../../assets/joliliah1.png';
+import moddoImg from '../../assets/moddo1.png';
+import simpsonsImg from '../../assets/simpsons1.png';
 
 function Projects() {
   return (
