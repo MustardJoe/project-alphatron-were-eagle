@@ -3,3 +3,4 @@ node_modules
 dist
 .npm-global
 __mocks__
+.DS_Store
