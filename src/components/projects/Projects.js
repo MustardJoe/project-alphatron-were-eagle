@@ -57,8 +57,8 @@ function Projects() {
         <p className={styles.projText}>
           <a href="https://confident-shirley-560be5.netlify.com/index.html" target="_blank"
             rel="noopener noreferrer">
-            Jonny&apos;s Simpsons Quotes!</a> A project I created that pulls data from a Simpsons API
-            and displays that data as with a Simpsons-themed presentation style.
+            Jonny&apos;s Simpsons Quotes!</a> This app pulls data from a Simpsons-triva REST API
+            and displays the data with an appropriately-themed presentation style.
         </p>
       </div>
       <div className={styles.spacerDiv}></div>
