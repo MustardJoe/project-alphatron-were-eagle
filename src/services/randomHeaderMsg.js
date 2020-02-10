@@ -1,6 +1,4 @@
 function randomHeaderMsg() {
-  const selectNumbDec = Math.random() * 19;
-  const wholeRandNumb = Math.floor(selectNumbDec);
   
   const headerMsgs = [
     'JavaScript is my friend',
@@ -11,7 +9,7 @@ function randomHeaderMsg() {
     'Let\'s use our powers for good!',
     'Let\'s use our powers for good!',
     'Great Job!',
-    'You should consider hiring me!',
+    'I hope you consider hiring me!',
     'Aspiring JavaScript Wizard',
     'I recently took up yoga!',
     'Meditation is good for you!',
@@ -24,8 +22,9 @@ function randomHeaderMsg() {
     'Have a Great Day!',
     'You\'ve reached level 999'
   ];
-
-  const selectedMsg = headerMsgs[wholeRandNumb];
+  
+  let randomIndex = Math.floor(Math.random() * (headerMsgs.length - 1));
+  const selectedMsg = headerMsgs[randomIndex];
   return selectedMsg;
 }
 

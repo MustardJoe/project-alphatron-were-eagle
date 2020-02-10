@@ -13,15 +13,15 @@ function Home() {
         <div></div>
         <div className={styles.textPara}>
           Welcome to my internet home (away from home). I&apos;m a 
-          fullstack software devoloper (he/him pronouns) living
+          fullstack software devoloper (he/him) living
           in Portland, Or.
         </div>
 
         <div className={styles.textPara}>
-          I&apos;m an empathetic, inteligent and diligent individual
+          I&apos;m an empathetic, intelligent and diligent individual
           with a quiet but quirky sense of humor, and a passion for continuous learning.
-          The most important thing to me in a job is being part of a great fitting team 
-          that works well together and supports each other.
+          The most important thing to me in any job is being part of a great fitting team 
+          that works well together and supports each other as we all grow our knowledge.
         </div>
 
         <div className={styles.textPara}>
