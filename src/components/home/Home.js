@@ -1,15 +1,14 @@
 import React from 'react';
 import Footer from '../footer/Footer';
 import styles from './home.css';
-// import jonvatar from '../../assets/jonpic2small.png';
-const jonvatar1 = '../../assets/jonpic2small.png';
+import jonvatar from '../../assets/jonpic2small.png';
                            
 function Home() {
   return (
     <>
       <section className={styles.home}>
         <div className="jonvatar">
-          <img src={jonvatar1}></img>
+          <img src={jonvatar}></img>
         </div>
         <div></div>
         <div className={styles.textPara}>
