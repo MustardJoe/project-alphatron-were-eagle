@@ -21,7 +21,9 @@ function Projects() {
             trivia, this app is made for fans of the David LynchTV show. It&apos;s a
             back-end project built using Node, Express and MongoDB, using REST API 
             architecture to provide the user endpoints to query specific types of data
-            (in this case, trivia from the TV show Twin Peaks)returned in JSON format.
+            (in this case, trivia from the TV show Twin Peaks)returned in JSON format. <a
+            href="https://github.com/MustardJoe/boat-server"
+            target="_blank" rel="noopener noreferrer">View Code</a>
         </p>
       </div>
       <div className={styles.projBlock}>
@@ -33,7 +35,9 @@ function Projects() {
             rel="noopener noreferrer">Grind-O-Tron</a> A turn-based-combat engine (inspired 
             by early Final Fantasy games), providing classic RPG-style content. Smash some
             pixel-art baddies and level up! A diversion for times when it&apos;s needed. 
-            Built with React, deployed on Netlify. 
+            Built with React, deployed on Netlify. <a
+            href="https://github.com/MustardJoe/rpg-combat-engine"
+            target="_blank" rel="noopener noreferrer">View Code</a>
         </p>
       </div>
       <div className={styles.spacerDiv}></div>
@@ -46,7 +50,9 @@ function Projects() {
           <a href="https://boring-kepler-b775fe.netlify.com/" target="_blank" 
             rel="noopener noreferrer">AstroView</a> A
               Front end for the NASA Astronomy Picture of the Day API. Browse decades of awesome,
-              daily astronomy photos. This project was built with React to interface with a REST API.
+              daily astronomy photos. This project was built with React to interface with a REST API. <a
+            href="https://github.com/MustardJoe/nasa-api-pt2"
+            target="_blank" rel="noopener noreferrer">View Code</a>
         </p>
       </div>
       <div className={styles.spacerDiv}></div>
@@ -60,7 +66,9 @@ function Projects() {
             rel="noopener noreferrer">
             I Believe In URL</a> A URL shortening app built with JavaScript, 
             using Node, Express and MongoDB.  Provides a shorter URL alternative
-            when one is needed.
+            when one is needed. <a
+            href="https://github.com/joliliah"
+            target="_blank" rel="noopener noreferrer">View Code</a>
         </p>
       </div>
       <div className={styles.spacerDiv}></div>
@@ -73,7 +81,9 @@ function Projects() {
             rel="noopener noreferrer">Moddo: Advice and 
             Inspire</a> Moddo is a fullstack app built as an exercise
             in using Firebase database system.  It gives you a bit of random 
-            adivce which inspires your to complete the paired to do list.
+            adivce which inspires your to complete the paired to do list. <a
+            href="https://github.com/rubber-ducky-squad/Adviser"
+            target="_blank" rel="noopener noreferrer">View Code</a>
         </p>
       </div>
       <div className={styles.spacerDiv}></div>
@@ -86,7 +96,9 @@ function Projects() {
           <a href="https://confident-shirley-560be5.netlify.com/index.html" target="_blank"
             rel="noopener noreferrer">
             Jonny&apos;s Simpsons Quotes!</a> This app pulls data from a Simpsons-triva REST API
-            and displays the data with an appropriately-themed presentation style.
+            and displays the data with an appropriately-themed presentation style. <a
+            href="https://github.com/MustardJoe/api-simpsons-fridaysolo"
+            target="_blank" rel="noopener noreferrer">View Code</a>
         </p>
       </div>
       <div className={styles.spacerDiv}></div>
