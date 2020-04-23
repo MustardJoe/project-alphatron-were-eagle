@@ -1,11 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2:800&display=swap');
 
-.twitterTag {
+.blueText {
   font-family: 'Exo 2', sans-serif;
   text-align: center;
   font-size: 1.4em;
   color: #207DFF;
   margin-left: 1em;
+}
+
+.cartoonRef {
+  justify-content: center;
+  margin-left: 2em;
+  padding-top: 2em;
+  padding-bottom: 0.4em;
+}
+
+.imgLinksDiv {
+  margin-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imgLinks {
+  margin: 1em;
+}
+
+.mayaRef {
+  display: inline;
+  padding-top: 0;
+  padding-bottom: 1vh;
 }
 
 .socMedia {
@@ -24,27 +48,4 @@
 
 .spacerDiv {
   height: 2vh;
-}
-
-.imgLinksDiv {
-  margin-top: 35px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.imgLinks {
-  margin: 1em;
-}
-
-.cartoonRef {
-  justify-content: center;
-  margin-left: 2em;
-  padding-top: 2em;
-  padding-bottom: 0.4em;
-}
-.mayaRef {
-  display: inline;
-  padding-top: 0;
-  padding-bottom: 1vh;
 }

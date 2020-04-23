@@ -11,7 +11,8 @@ function Links() {
     <>
       <div className={styles.socMedia}>
         <div className={styles.spacerDiv}></div>
-        <div className={styles.twitterTag}>
+
+        <div className={styles.blueText}>
           Feel free to contact me with your professional opportunities!
         </div>
         <div className={styles.imgLinksDiv}>
@@ -28,6 +29,12 @@ function Links() {
           </a>
         </div>
         <div className={styles.spacerDiv}></div>
+
+        <div className={styles.blueText}>
+          <a href="https://docs.google.com/document/d/14yDkxOOwnlfwAwo9qtvZ_PkhbXG7GZjXjMiW3RC0EoY/edit"
+            target="_blank" rel="noopener noreferrer">View Jon&apos;s Resume</a>
+        </div>
+
         <div className={styles.cartoonRef}>
           <img src={miniAvatar}></img>
           <p className={styles.mayaRef}>
