@@ -6,13 +6,14 @@ import joliliahImg from '../../assets/joliliah2.png';
 import moddoImg from '../../assets/moddo2.png';
 import simpsonsImg from '../../assets/simpsons2.png';
 import grindoImg from '../../assets/grindo2.png';
+import twinPeaksImg from '../../assets/twinpeaksproj.png';
 
 function Projects() {
   return (
     <section className={styles.projectsComp}>
       <div className={styles.projBlock}>
         <a href="https://friendly-kilby-8a97fe.netlify.app/" target="_blank" rel="noopener noreferrer">
-          <img src={grindoImg} className={styles.projImg}></img>
+          <img src={twinPeaksImg} className={styles.projImg}></img>
         </a>
         <p className={styles.projText}>
           <a href="https://friendly-kilby-8a97fe.netlify.app/" target="_blank"
