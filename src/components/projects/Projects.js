@@ -21,7 +21,7 @@ function Projects() {
             trivia, this app is made for fans of the David LynchTV show. It&apos;s a
             back-end project built using Node, Express and MongoDB, using REST API 
             architecture to provide the user endpoints to query specific types of data
-            (in this case, trivia from the TV show Twin Peaks) in JSON format.
+            (in this case, trivia from the TV show Twin Peaks)returned in JSON format.
         </p>
       </div>
       <div className={styles.projBlock}>

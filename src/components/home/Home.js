@@ -25,7 +25,7 @@ function Home() {
         </div>
 
         <div className={styles.textPara}>
-          I grew up in Alaska, I play several instruments and my 3rd favorite
+          I grew up in Alaska, I play several musical instruments and my 3rd favorite
           movie is the original 1954 Godzilla.
         </div>
 
