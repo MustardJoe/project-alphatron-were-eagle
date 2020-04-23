@@ -11,6 +11,19 @@ function Projects() {
   return (
     <section className={styles.projectsComp}>
       <div className={styles.projBlock}>
+        <a href="https://friendly-kilby-8a97fe.netlify.app/" target="_blank" rel="noopener noreferrer">
+          <img src={grindoImg} className={styles.projImg}></img>
+        </a>
+        <p className={styles.projText}>
+          <a href="https://friendly-kilby-8a97fe.netlify.app/" target="_blank"
+            rel="noopener noreferrer">Twin Peaks, the REST API</a> A place for Twin Peaks 
+            trivia, this app is made for fans of the David LynchTV show. It&apos;s a
+            back-end project built using Node, Express and MongoDB, using REST API 
+            architecture to provide the user endpoints to query specific types of data
+            (in this case, trivia from the TV show Twin Peaks) in JSON format.
+        </p>
+      </div>
+      <div className={styles.projBlock}>
         <a href="https://jolly-visvesvaraya-9df6c6.netlify.com/" target="_blank" rel="noopener noreferrer">
           <img src={grindoImg} className={styles.projImg}></img>
         </a>
@@ -19,7 +32,7 @@ function Projects() {
             rel="noopener noreferrer">Grind-O-Tron</a> A turn-based-combat engine (inspired 
             by early Final Fantasy games), providing classic RPG-style content. Smash some
             pixel-art baddies and level up! A diversion for times when it&apos;s needed. 
-            Built with React, deployed on Netlify. Please Note This Project Is Still A Work In Progress.
+            Built with React, deployed on Netlify. 
         </p>
       </div>
       <div className={styles.spacerDiv}></div>
