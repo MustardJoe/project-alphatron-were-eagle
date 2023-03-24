@@ -12,26 +12,29 @@ function Home() {
         </div>
         <div></div>
         <div className={styles.textPara}>
-          Welcome to my internet home (away from home). I&apos;m a 
-          fullstack software devoloper (he/him) living
-          in Portland, Or.
+          Welcome to my internet home (away from home) for me, Jon Forney (he/him),
+           a Cloud Operations Engineer living in Portland, Oregon.
         </div>
 
         <div className={styles.textPara}>
-          I&apos;m an empathetic, intelligent and diligent individual
-          with a quiet but quirky sense of humor, and a passion for continuous learning.
-          The most important thing to me in any job is being part of a great fitting team 
-          that works well together and supports each other as we all grow our knowledge.
+          I&apos;m a curious, quirky, and empathetic cloud operations 
+          engineer, with a web generalist&apos;s background, working primarily 
+          with Linux systems hosted in AWS cloud environments. I&apos;m dedicated 
+          to continuous improvement, with an appetite for learning/mastering
+          modern cloud infrastructure trends and technology. I love to learn
+          new things, and then learn to automate them. More than anything, I
+          value a good fitting team that works well together, and whose 
+          members support each other.
         </div>
 
-        <div className={styles.textPara}>
+        {/* <div className={styles.textPara}>
           I grew up in Alaska, I play several musical instruments and my 3rd favorite
           movie is the original 1954 Godzilla.
         </div>
 
         <div className={styles.textPara}>
           Please use this site as a helpful resource to learn about me!
-        </div>
+        </div> */}
         <Footer />
       </section>
     </>

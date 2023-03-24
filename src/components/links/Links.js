@@ -31,7 +31,7 @@ function Links() {
         <div className={styles.spacerDiv}></div>
 
         <div className={styles.blueText}>
-          <a href="https://docs.google.com/document/d/14yDkxOOwnlfwAwo9qtvZ_PkhbXG7GZjXjMiW3RC0EoY/edit"
+          <a href="https://docs.google.com/document/d/15jXJ4m_v7rzEFQFt-YhIJ31tMc3yfznAMiX_EcTtyQ8/edit?usp=sharing"
             target="_blank" rel="noopener noreferrer">View Jon&apos;s Resume</a>
         </div>
 
