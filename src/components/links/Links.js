@@ -23,15 +23,15 @@ function Links() {
             target="_blank" rel="noopener noreferrer">
             <img src={linkedinIcon} alt="LinkedIn icon"></img>
           </a>
-          <a href="https://twitter.com/GodzillaJonny" className={styles.imgLinks} target="_blank"
+          {/* <a href="https://twitter.com/GodzillaJonny" className={styles.imgLinks} target="_blank"
             rel="noopener noreferrer">
             <img src={twitterIcon} alt="Twitter icon"></img>
-          </a>
+          </a> */}
         </div>
         <div className={styles.spacerDiv}></div>
 
         <div className={styles.blueText}>
-          <a href="https://docs.google.com/document/d/15jXJ4m_v7rzEFQFt-YhIJ31tMc3yfznAMiX_EcTtyQ8/edit?usp=sharing"
+          <a href="https://docs.google.com/document/d/1_rr7I_2gvmkDqev3eTBb-ngP344sh3AtoULTEgKoSxI/edit?usp=sharing"
             target="_blank" rel="noopener noreferrer">View Jon&apos;s Resume</a>
         </div>
 

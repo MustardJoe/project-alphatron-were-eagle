@@ -17,14 +17,14 @@ function Home() {
         </div>
 
         <div className={styles.textPara}>
-          I&apos;m a curious, quirky, and empathetic cloud operations 
-          engineer, with a web generalist&apos;s background, working primarily 
-          with Linux systems hosted in AWS cloud environments. I&apos;m dedicated 
+          I&apos;m a curious, quirky, and empathetic <b>cloud operations 
+          engineer</b>, with a full-stack web dev background, working primarily 
+          with <b>Linux</b> systems hosted in <b>AWS</b> cloud environments. I&apos;m dedicated 
           to continuous improvement, with an appetite for learning/mastering
           modern cloud infrastructure trends and technology. I love to learn
           new things, and then learn to automate them. More than anything, I
           value a good fitting team that works well together, and whose 
-          members support each other.
+          members support each other!
         </div>
 
         {/* <div className={styles.textPara}>

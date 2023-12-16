@@ -16,12 +16,13 @@ function Projects() {
           <img src={twinPeaksImg} className={styles.projImg}></img>
         </a>
         <p className={styles.projText}>
+          <h3>This project is currently offline but I still love to talk about it! </h3>
           <a href="https://friendly-kilby-8a97fe.netlify.app/" target="_blank"
             rel="noopener noreferrer">Twin Peaks, the REST API</a> A place for Twin Peaks 
             trivia, this app is made for fans of the David LynchTV show. It&apos;s a
             back-end project built using Node, Express and MongoDB, using REST API 
             architecture to provide the user endpoints to query specific types of data
-            (in this case, trivia from the TV show Twin Peaks)returned in JSON format. <a
+            (in this case, trivia from the TV show Twin Peaks) returned in JSON format. <a
             href="https://github.com/MustardJoe/boat-server"
             target="_blank" rel="noopener noreferrer">View Code</a>
         </p>
@@ -56,7 +57,7 @@ function Projects() {
         </p>
       </div>
       <div className={styles.spacerDiv}></div>
-      <div className={styles.projBlock}>
+      {/* <div className={styles.projBlock}>
         <a href="https://happy-lovelace-66fb73.netlify.com/auth.html" target="_blank" 
           rel="noopener noreferrer">
           <img src={joliliahImg} className={styles.projImg} alt="JoLiliah comes from JOn LILI and noAH"></img>
@@ -70,8 +71,8 @@ function Projects() {
             href="https://github.com/joliliah"
             target="_blank" rel="noopener noreferrer">View Code</a>
         </p>
-      </div>
-      <div className={styles.spacerDiv}></div>
+      </div> */}
+      {/* <div className={styles.spacerDiv}></div>
       <div className={styles.projBlock}>
         <a href="https://moddo.netlify.com/" target="_blank" rel="noopener noreferrer">
           <img src={moddoImg} className={styles.projImg}></img>
@@ -85,7 +86,7 @@ function Projects() {
             href="https://github.com/rubber-ducky-squad/Adviser"
             target="_blank" rel="noopener noreferrer">View Code</a>
         </p>
-      </div>
+      </div> */}
       <div className={styles.spacerDiv}></div>
       <div className={styles.projBlock}>
         <a href="https://confident-shirley-560be5.netlify.com/index.html" target="_blank"
