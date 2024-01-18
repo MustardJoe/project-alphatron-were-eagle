@@ -11,7 +11,7 @@ function Footer() {
         {ourMsg}
       </div>
       <div>
-              © Jon Forney 2023
+              © Jon Forney 2024
       </div>
     </section>
   );
