@@ -17,7 +17,7 @@ function Home() {
         </div>
 
         <div className={styles.textPara}>
-          I&apos;m a curious, quirky, and empathetic <b>cloud operations 
+          I&apos;m a curious and empathetic <b>cloud operations 
           engineer</b>, with a full-stack web dev background, working primarily 
           with <b>Linux</b> systems hosted in <b>AWS</b> cloud environments. I&apos;m dedicated 
           to continuous improvement, with an appetite for learning/mastering
